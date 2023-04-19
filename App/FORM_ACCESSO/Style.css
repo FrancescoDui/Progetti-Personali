@@ -1,0 +1,79 @@
+body {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/228/674/459/metal-grey-texture-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.sezione_main {
+    position: relative;
+    width: 380px;
+    height: 558px;
+    background-color: #fff;
+   
+}
+
+div {
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+a {
+    color: blue;
+    text-align: center;
+}
+
+p {
+
+    text-align: center;
+}
+
+form {
+    
+    display: grid;
+    justify-content: space-around;
+    text-align: center;
+    height: 33px;
+    padding: 5px;
+}
+
+input[type="email"] {
+    text-align: center;
+    height: 33px;
+}
+
+input[type="password"] {
+    text-align: center;
+    height: 33px;
+}
+
+
+input[type="submit"] {
+    background-color: cornflowerblue;
+    height: 33px;
+}
+
+.registrazione {
+	margin-top: 40px;
+}
+
+input[type="button"] {
+    height: 46px;
+    background-color: cornflowerblue;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 33px;
+}

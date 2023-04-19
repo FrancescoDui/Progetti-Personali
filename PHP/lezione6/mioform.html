@@ -1,0 +1,24 @@
+<form action="show_input.php" method="post">
+    Nome:<input type="text" name="nome" value="" ><br>
+    Password:<input type="password" name="password" value="" ><br>
+    Email:<input type="email" name="email" value="" ><br>
+    Note:<textarea name="note" cols="60"></textarea><br>
+    Pasti:<br>
+    Pranzo:<input type="checkbox"name="pranzo" checked="checked"><br>
+    Cena:<input type="checkbox"name="cena" checked="checked"><br>
+    Sesso:<br>
+        Maschio<input type="radio" name="sesso" value="M"><br>
+        Femmina<input type="radio" name="sesso" value="F"><br>
+        Non_Bin<input type="radio" name="sesso" value="O"><br>
+    Attività Sportive:
+    <select name="sport[]" multiple>
+        <option value="arco">Gara con l'arco</option>
+        <option value="corsa">Gara corsa</option>
+        <option value="bocce">Gara di bocce</option>
+        <option value="ippica">Gara ippica</option>
+    </select>
+    Colore:<input type="color" name="colore"><br>
+    Cursore:<input type="range" name="cursore"><br>
+
+    <input type="submit">
+</form>

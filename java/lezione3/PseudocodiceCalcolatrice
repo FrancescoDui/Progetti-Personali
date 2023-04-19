@@ -1,0 +1,63 @@
+PseudocodiceSomma:
+Dichiarazione variabili:
+    int primoNumero;
+    inte secondoNumero;
+Valorizzazione/assegnazione:
+    int primoNumero=8;
+    int secondoNumero=10;
+Somma:
+    int risultatoSomma=primoNumero+secondoNumero;
+PseudocodiceSottrazione:
+Dichiarazione variabili:
+    Eseguito in precedenza
+Valorizzazione/assegnazione:
+    Eseguito in precedenza
+PseudocodiceProdotto:
+    Dichiarazione variabili:
+        Eseguito in precedenza
+    Valorizzazione/assegnazione:
+        Eseguito in precedenza
+    Prodotto:
+        int risultatoSomma=primoNumero*secondoNumero;
+PseudocodiceDivisione:
+    Dichiarazione variabili:
+        Eseguito in precedenza
+    Valorizzazione/assegnazione:
+        Eseguito in precedenza
+    Divisione:
+        se secondoNumero==zero
+            System.out.println("Errore");
+        altrimenti
+            double risultatoSomma=primoNumero-secondoNumero;
+PseudocodicePotenza:
+    Dichiarazione variabili:
+        Eseguito in precedenza
+    Valorizzazione/assegnazione:
+        Eseguito in precedenza
+    Potenza:
+        int risultatoPotenza=Math.pow(primoNumero,secondoNumero);
+PseudocodiceRadice:
+  Dichiarazione variabili:
+        Eseguito in precedenza
+    Valorizzazione/assegnazione:
+        Eseguito in precedenza
+    Radice:
+        se primoNumero>0 allora
+            double risultatoPotenza=Math.sqrt(primoNumero);
+        altrimenti
+            System.out.println("Errore");
+PseudocodiceSeno:
+Dichiarazione variabili:
+        Eseguito in precedenza
+    Valorizzazione/assegnazione:
+        se angolo in gradi allora
+
+    Seno:
+        double risultatoSeno=sin((double)primoNumero);
+PseudocodiceCoseno:
+Dichiarazione variabili:
+        Eseguito in precedenza
+    Valorizzazione/assegnazione:
+        Eseguito in precedenza
+    Coseno:
+        double risultatoSeno=cos((double)primoNumero);
