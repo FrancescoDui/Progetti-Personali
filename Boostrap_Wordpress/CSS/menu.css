@@ -1,0 +1,11 @@
+.card-body button{
+    width: 100px;
+    border-radius: 20px;
+    background-color:#d52e26; 
+    color: black; 
+    border: 2px solid black;
+}
+.card-body button:hover {
+    background-color: #f9b938;
+    color: #d52e26;
+}
